@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+header {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 1em 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  background-color: #333;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: #ffcc00;
+  margin: 0 15px;
+  text-decoration: none;
+}
+section {
+  padding: 2em;
+}
+.hero {
+  text-align: center;
+  padding: 2em;
+  background-color: #fff;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  padding: 2em 0;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mission {
+  background-color: #333;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+}
+.ecommerce {
+  padding: 2em;
+  background-color: #fff;
+  text-align: center;
+}
+.ecommerce h2 {
+  margin-bottom: 1em;
+}
+.ecommerce .car {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+footer {
+  background-color: #333;
+  color: #ffcc00;
+  text-align: center;
+  padding: 1em 0;
+}
